@@ -8,29 +8,29 @@ body {
 }
 
 #main-doc {
-    margin-left: 220px; /* Adjusted margin for space */
+    margin-left: 220px; 
     padding: 20px;
     background-color: #A4B5C4;
     flex: 1;
-    overflow-x: hidden; /* Hide horizontal scroll */
+    overflow-x: hidden; 
 }
 
 #navbar {
-    width: 200px; /* Thinner sidebar width */
-    background-color: #071739; /* Blue color for navigation */
+    width: 200px; 
+    background-color: #071739; 
     color: #fff;
     padding: 15px;
     position: fixed;
     top: 0;
     left: 0;
-    height: 100vh; /* Full height */
-    overflow-y: auto; /* Scroll if content overflows */
+    height: 100vh; 
+    overflow-y: auto; 
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-    border-right: 2px solid #0056b3; /* Right border to separate sidebar */
+    border-right: 2px solid #0056b3; 
 }
 
 #navbar header {
-    font-size: 1.3em; /* Header font size */
+    font-size: 1.3em; 
     margin-bottom: 20px;
     text-align: center;
 }
@@ -40,21 +40,21 @@ body {
     text-decoration: none;
     display: block;
     padding: 10px;
-    border-bottom: 1px solid #0056b3; /* Border line between items */
-    margin: 5px 0; /* Margin between items */
-    font-size: 1em; /* Font size */
+    border-bottom: 1px solid #0056b3; 
+    margin: 5px 0; 
+    font-size: 1em; 
     border-radius: 4px;
     transition: background 0.3s ease;
 }
 
 .nav-link:hover {
-    background: #0056b3; /* Darker blue for hover effect */
+    background: #0056b3; 
 }
 
 h1 {
     margin: 0;
     font-size: 2.5em;
-    color: #007BFF; /* Blue color for header */
+    color: #007BFF; 
 }
 
 .main-section {
@@ -75,10 +75,10 @@ code {
     margin: 10px 0;
 }
 
-/* Media Queries */
+
 @media (max-width: 768px) {
     #navbar {
-        width: 180px; /* Thinner sidebar for medium screens */
+        width: 180px; 
         padding: 10px;
     }
 
@@ -87,7 +87,7 @@ code {
     }
 
     #main-doc {
-        margin-left: 200px; /* Adjusted margin for medium screens */
+        margin-left: 200px; 
         padding: 15px;
     }
 }
@@ -108,7 +108,7 @@ code {
 
     .nav-link {
         font-size: 0.9em;
-        border-bottom: 1px solid #0056b3; /* Border for mobile */
+        border-bottom: 1px solid #0056b3; 
     }
 
     h1 {
